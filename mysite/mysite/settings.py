@@ -58,7 +58,7 @@ TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
         'DIRS': [
-            os.path.join(BASE_DIR, 'portfolio/templates'),
+            os.path.join(BASE_DIR, 'mysite/portfolio/templates'),
           ],
         'APP_DIRS': True,
         'OPTIONS': {
@@ -125,7 +125,7 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 STATIC_URL = '/static/'
 STATICFILES_DIRS = [
-    "portfolio/portfolio/static",
+    "mysite/portfolio/static",
 ]
 
 # Ensure STATIC_ROOT is defined and set correctly for production deployment
