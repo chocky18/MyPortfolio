@@ -137,6 +137,7 @@ ALLOWED_HOSTS = [
     'localhost',
     '127.0.0.1',
     'myportfolio-wlse.onrender.com',
+    '.vercel.app', 
     # Add any other hosts you need
 ]
 
